@@ -128,7 +128,7 @@ bash
 
 bash
 
-`curl "http://10.10.100.136:9090/api/v1/query?query=rate(minio_gateway_requests_total[5m])"`
+`curl "http://<prometheus-host-ip>:9090/api/v1/query?query=rate(minio_gateway_requests_total[5m])"`
 
 **Step 4: Wait 60 seconds** (check interval)
 
